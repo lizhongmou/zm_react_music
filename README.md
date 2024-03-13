@@ -1,3 +1,17 @@
+**代码规范**
+需要安装包 pnpm add prettier -d
+.prettierrc
+**忽略文件**
+.prettierignore
+播放的逻辑是分层。 状态管理只需要管理当前需要播放的是什么，播放器只需要从状态管理这里获取需要播放什么，切换的时候只需要将最新的状态传递到store里面去
+
+有一个插件可以删除 console.log() 打印的东西
+
+!. 非空断言
+？. 不能进行赋值
+
+浏览器有一个限制，不能直接打开一个软件进行播放音乐或者视频
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
